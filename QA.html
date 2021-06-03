@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--分頁顯示的名稱  A-4 -->
+<title>自我介紹</title>
+		
+<!--  引入自己寫的CSS  A-2-->
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">自我介紹</a>
+						<a class="nav-item nav-link" href="QA.html">QandA</a>
+						<a class="nav-item nav-link" href="位置.html">臺南市政府民治市政中心</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+	<section id="QAsecond">
+	
+	<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          鱔魚麵
+        </button>
+      </h2>
+    
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body bodybg">
+        話說早期在地台南人都知道這間阿江炒鱔魚很低調，稱它是鱔魚意麵中不能說的秘密美食！
+但後來其實幾年前的食尚玩家已經介紹採訪過，現在完全低調不來啦～
+他們家有名的是乾炒鱔魚意麵，也算是艾妮可的乾炒鱔魚麵初體驗，
+當時去吃一份乾炒鱔魚麵價格只要100元，以一向貴鬆鬆的乾炒來說算是不貴！！！
+看照片就知道上頭灑上很大量的白胡椒做調味，吃起來是鹹鹹胡椒香氣很迷人的風格
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          棺材板
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body bodybg2">
+       棺材板創始店是位於中正路俗稱沙卡里巴的康樂市場內的「盛場老赤嵌」店。在1940年代，內臟如雞肝屬於上等食材，創始人許六一採用雞肝為主要內餡並將之命名為雞肝板。有一天，成大附屬工業學校（國立成功大學前身）一位教授來到沙卡里巴食用雞肝板後，覺得其外形很像一個棺材。於是許六一就將其命名為「棺材板」另有資料認為，棺材板原名機關板，是許姓師傅自己想出來的名字。
+
+
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          牛肉湯
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body bodybg3">
+        對於外縣市的民眾來說，台南的牛肉湯文化獨具一格，除了不符合日常作息的營業時間，還包括漏夜摸黑排隊的人龍、沒有打烊時間而只有「賣完為止」、色澤透明卻味道濃郁的神奇湯頭，以及超軟嫩的粉紅色牛肉片，這些令人難以置信的情況，只能夠在台南看到！因此，如果去台南沒喝到牛肉湯，似乎就等於不曾去過。然而，作為當地特產，販賣牛肉湯的店家多不勝數
+      </div>
+    </div>
+  </div>
+</div>
+	
+<div class="card">
+    <div class="card-header" id="heading4">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+          台南
+        </button>
+      </h2>
+    </div>
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+      <div class="card-body">
+        <img src="4-4.jpg" width="300px" class= " img-rounded " >
+      </div>
+    </div>
+   </div>
+	</div>
+</section>
+		
+</body>
+</html>
